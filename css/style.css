@@ -23,7 +23,7 @@ h1 {
   li a {
     display: block;
     color: #000;
-    padding: 8vw 16vw;
+    padding: 1vw, 1vw;
     text-decoration: none;
   }
   
