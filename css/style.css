@@ -12,8 +12,7 @@ body
     color: #cccccc;
     font-size: 1vw;
     min-height: 100vh;
-    position: relative;
-    padding-bottom: 2.5rem; 
+    position: relative; 
 }
 
 footer
