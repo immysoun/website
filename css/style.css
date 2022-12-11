@@ -3,11 +3,11 @@
     cursor: url(../resources/cursor.cur) 8 8, auto;
     border-radius: 25px;
     text-align: center;
+    min-height: 100vh;
 }
 
 body 
 {
-    min-height: 100vh;
     background-color: #0c0c0c;
     font-family: Arial, Helvetica, sans-serif;
     color: #cccccc;
