@@ -4,7 +4,12 @@ body
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: #cccccc;
-    font-size: 3.333vw;
+    font-size: 1vw;
+}
+
+div
+{
+    text-align: center;
 }
 
 a 
@@ -16,10 +21,12 @@ a
 ul 
 {
     list-style-type: none;
-    margin: 12.5vw;
+    margin: 1vw;
     padding: 0;
-    width: 75vw;
+    width: 10vw;
     background-color: #f1f1f1;
+    display: inline-block;
+    text-align: center;
 }
 li a 
 {
