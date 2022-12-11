@@ -4,7 +4,7 @@ body
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: #cccccc;
-    font-size: 2.5vw;
+    font-size: 3.333vw;
 }
 
 h1 {
@@ -14,9 +14,9 @@ h1 {
 
   ul {
     list-style-type: none;
-    margin: 0;
+    margin: 10vw;
     padding: 0;
-    width: 20vw;
+    width: 75vw;
     background-color: #f1f1f1;
   }
   
