@@ -1,21 +1,17 @@
 *
 {
-    cursor: url(../resources/cursor.cur) 8 8, pointer;
+    cursor: url(../resources/cursor.cur) 8 8, auto;
     border-radius: 25px;
+    text-align: center;
 }
 
 body 
 {
+    min-height: 100%;
     background-color: #0c0c0c;
-    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: #cccccc;
     font-size: 1vw;
-}
-
-div
-{
-    text-align: center;
 }
 
 a 
@@ -32,7 +28,6 @@ ul
     width: 15vw;
     background-color: #f1f1f1;
     display: inline-block;
-    text-align: center;
     transition: 0.333s;
 }
 li a 
