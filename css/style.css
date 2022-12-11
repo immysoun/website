@@ -7,32 +7,33 @@ body
     font-size: 3.333vw;
 }
 
-h1 {
-    text-align: center;
-    text-transform: uppercase;
-  }
+a 
+{
+    text-decoration: none;
+}
 
-  ul {
+ul 
+{
     list-style-type: none;
     margin: 10vw;
     padding: 0;
     width: 75vw;
     background-color: #f1f1f1;
-  }
-  
-  li a {
+}
+li a 
+{
     display: block;
     color: #000;
     padding: 1vw, 1vw;
     text-decoration: none;
-  }
-  
-  li a.active {
+}
+li a.active 
+{
     background-color: #101a16;
     color: white;
-  }
-  
-  li a:hover:not(.active) {
+}
+li a:hover:not(.active) 
+{
     background-color: #555;
     color: white;
-  }
+}
