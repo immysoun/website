@@ -13,13 +13,15 @@ body
     color: #cccccc;
     min-height: 100vh;
     position: relative;
-    font-size: 2.5vw;
+    padding-bottom: 2.5rem;
+    font-size: 1vw;
 }
 
 footer
 {
     position: absolute;
     bottom: 0;
+    height: 2.5rem;
 }
 
 a 
