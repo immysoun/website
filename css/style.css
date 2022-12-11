@@ -16,14 +16,14 @@ h1 {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 2vw;
+    width: 200vw;
     background-color: #f1f1f1;
   }
   
   li a {
     display: block;
     color: #000;
-    padding: 0.8vw 1.6vw;
+    padding: 8vw 16vw;
     text-decoration: none;
   }
   
