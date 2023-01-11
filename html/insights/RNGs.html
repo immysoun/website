@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <link rel="stylesheet" href="../css/style.css">
+  <title>3746 | Games</title>
+  <link rel="icon" href="/resources/logo.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+</head>
+
+<body>
+  <h1>Random Number Generators</h1>
+
+  <b><p>UNDER CONSTRUCTION</p></b>
+
+  <p>This page will show you my insights on RNGs.</p>
+
+  <p>this is an example of an HRNG written in C#, which uses the Cryptography API from System.Security:</p>
+  
+  <pre>
+    <code>
+    using System.Security.Cryptography;
+    using System;
+    
+    class program
+    {
+        void Main()
+        {
+            //R.N.G Random Number Generator (RandInt(0, 100))
+            RNGCryptoServiceProvider rng = new RNGCryptoServiceProvider();
+            byte[] randomNumber = new byte[4];
+            rng.GetBytes(randomNumber);
+            int result = BitConverter.ToInt32(randomNumber,0);
+            result = result % 101;
+            if (result < 0)
+                result = -result;
+        }
+    }
+    </code>
+    </pre>
+
+
+  <br>
+  <a href="../insight repo.html" title="Insights">Exit</a> 
+
+</body>
+
+</html>
