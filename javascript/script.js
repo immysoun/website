@@ -1,6 +1,6 @@
 const letters = "abcdefghijklmnopqrstuvwxyz";
 
-document.querySelector('a').onmouseover = event => {
+document.querySelector('ul').onmouseover = event => {
 	let iterations = 0;
 
 	const interval = setInterval(() => {
