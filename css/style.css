@@ -9,7 +9,7 @@
 
 #blob
 {
-    background-color: #696969;
+    background-color: #a0a0a0;
     height: 500px;
     aspect-ratio: 1;
     position: absolute;
@@ -18,7 +18,7 @@
     translate: -50% -50%;
     border-radius: 50%;
     filter: blur(200px);
-	z-index: 2;
+	z-index: -2;
 }
 
 body 
