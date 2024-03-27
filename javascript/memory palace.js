@@ -1,4 +1,4 @@
-import '../css/style.css'
+import '../css/palace.css'
 import * as THREE from 'three';
 
 const scene = new THREE.Scene();
@@ -15,7 +15,7 @@ const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
 const cube = new THREE.Mesh(geometry, material);
 scene.add(cube);
 
-camera.position.setZ(5);
+camera.position.setZ(30);
 
 function animate() {
   requestAnimationFrame(animate);
